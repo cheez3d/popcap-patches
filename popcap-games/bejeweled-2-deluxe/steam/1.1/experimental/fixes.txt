@@ -1,0 +1,14 @@
+* 'Signature check failed on '
+  00     56     8D     8C     24 A4     00 00 00 51 8B CF FF D2 84 C0
+  0F->E9 85->7E 7D->01 01->00 00 00->90 68 4C BE 64 00 8D 8C 24 C4 00
+  00     00     E8     40     69 F6     FF 68 68 BE 64 00 8D 4C 24 34
+
+* FailureReason 'Not enough video memory.'
+  FF     C1 E8 14 3B 83 B0 00 00 00 89 85 68 FA FF FF
+  73->EB 46 68 A8 BE 63 00 8D 8D 08 FA FF FF E8 95 4F
+  FD     FF 8D 85 08 FA FF FF 8B CB C6 45 FC 06 E8 D4
+
+* Warning 'Unsupported video card: %s'
+  8B     7B 50 EB 03 8D 7B 50 53 E8 AA F8 FF FF 84 C0
+  75->EB 48 39 73 64 72 05 8B 43 50 EB 03 8D 43 50 50
+  8D     95 4C FA FF FF 68 DC BE 63 00 52 E8 C7 57 FC

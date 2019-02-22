@@ -1,0 +1,20 @@
+* 'Invalid partner properties signature!'
+  FF     FF 88 5D FC E8 CA 4B 00 00 38 9D 67 FF FF FF
+  74->EB 22 6A 10 68 D8 0A 54 00 68 08 10 54 00 53 FF
+  15     00 FF 56 00 53 57 8D 4D D4 E8 A5 4B 00 00 E9
+
+
+* 'Signature check failed on '
+  00     56     8D     8C     24 A4     00 00 00 51 8B CF FF D2 84 C0
+  0F->E9 85->86 85->01 01->00 00 00->90 68 88 33 81 00 8D 8C 24 C4 00
+  00     00     E8     C2     52 F9     FF 68 C0 33 81 00 8D 4C 24 18
+
+* FailureReason 'Not enough video memory.'
+  FF     C1 E8 14 3B 83 B0 00 00 00 89 85 68 FA FF FF
+  73->EB 46 68 14 D5 80 00 8D 8D C0 FE FF FF E8 D5 59
+  03     00 8D 85 C0 FE FF FF 8B CB C6 45 FC 06 E8 44
+
+* Warning 'Unsupported video card: %s'
+  8B     7B 50 EB 03 8D 7B 50 53 E8 09 F9 FF FF 84 C0
+  75->EB 4D BE 10 00 00 00 39 73 64 72 05 8B 43 50 EB
+  03     8D 43 50 50 8D 95 4C FA FF FF 68 48 D5 80 00
